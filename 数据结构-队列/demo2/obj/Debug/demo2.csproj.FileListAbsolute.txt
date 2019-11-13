@@ -1,0 +1,7 @@
+D:\数据结构\demo2\demo2\bin\Debug\demo2.exe.config
+D:\数据结构\demo2\demo2\bin\Debug\demo2.exe
+D:\数据结构\demo2\demo2\bin\Debug\demo2.pdb
+D:\数据结构\demo2\demo2\obj\Debug\demo2.csprojAssemblyReference.cache
+D:\数据结构\demo2\demo2\obj\Debug\demo2.csproj.CoreCompileInputs.cache
+D:\数据结构\demo2\demo2\obj\Debug\demo2.exe
+D:\数据结构\demo2\demo2\obj\Debug\demo2.pdb
