@@ -1,0 +1,7 @@
+D:\多线程\Study\zc.DataStructure.Day5\Day5\bin\Debug\Day5.exe.config
+D:\多线程\Study\zc.DataStructure.Day5\Day5\bin\Debug\Day5.exe
+D:\多线程\Study\zc.DataStructure.Day5\Day5\bin\Debug\Day5.pdb
+D:\多线程\Study\zc.DataStructure.Day5\Day5\obj\Debug\Day5.csprojAssemblyReference.cache
+D:\多线程\Study\zc.DataStructure.Day5\Day5\obj\Debug\Day5.csproj.CoreCompileInputs.cache
+D:\多线程\Study\zc.DataStructure.Day5\Day5\obj\Debug\Day5.exe
+D:\多线程\Study\zc.DataStructure.Day5\Day5\obj\Debug\Day5.pdb
