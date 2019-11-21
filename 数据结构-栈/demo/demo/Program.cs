@@ -39,7 +39,7 @@ namespace demo
 
             #endregion
 
-            #region 计算表达式(只能计算1-9的加、减、乘、除操作！)
+            #region 计算表达式
            // string str = "7+2*6-20";
             string str = "7*2*2-5+1-5+3-4";
             char[] vs = str.ToCharArray();

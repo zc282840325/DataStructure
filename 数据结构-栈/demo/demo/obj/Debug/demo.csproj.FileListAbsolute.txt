@@ -2,6 +2,5 @@ D:\多线程\Study\数据结构-栈\demo\demo\bin\Debug\demo.exe.config
 D:\多线程\Study\数据结构-栈\demo\demo\bin\Debug\demo.exe
 D:\多线程\Study\数据结构-栈\demo\demo\bin\Debug\demo.pdb
 D:\多线程\Study\数据结构-栈\demo\demo\obj\Debug\demo.csprojAssemblyReference.cache
-D:\多线程\Study\数据结构-栈\demo\demo\obj\Debug\demo.csproj.CoreCompileInputs.cache
 D:\多线程\Study\数据结构-栈\demo\demo\obj\Debug\demo.exe
 D:\多线程\Study\数据结构-栈\demo\demo\obj\Debug\demo.pdb
