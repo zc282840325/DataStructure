@@ -8,20 +8,23 @@ namespace demo
 {
     class Program
     {
-        static Dictionary<int, string> dic = new Dictionary<int, string>();
+        static Dictionary<int, string> dic = new Dictionary<int, string>();//存储24种组合的数据
         static List<string> list_cl = new List<string>();
         static int count = 0;
         static void Main(string[] args)
         {
-            Sum();
-            int p = 100;
-            int s = 0;
-            for (int i = 0; i < 24; i++)
-            {
-                count = 0;
-                Run(i,ref p,ref s);
-            }
-            Console.WriteLine("最优解：策略{0}是最优解，一共走{1}步",s,p);
+            #region 24种解法
+            //Sum();
+            //int p = 100;
+            //int s = 0;
+            //for (int i = 0; i < 24; i++)
+            //{
+            //    count = 0;
+            //    Run(i, ref p, ref s);
+            //}
+           // Console.WriteLine("最优解：策略{0}是最优解，一共走{1}步", s, p);
+            #endregion
+
             #region 迷宫
             ////创建一个二维数组，模拟迷宫
             //int[,] map = new int[8,7];
@@ -63,6 +66,13 @@ namespace demo
             //    }
             //    Console.WriteLine("");
             //}
+            #endregion
+
+            #region 八皇后问题
+            Queue8 queue = new Queue8();
+            queue.check(0);
+            Console.WriteLine("一共有{0}解法", Queue8.count);
+
             #endregion
 
 
