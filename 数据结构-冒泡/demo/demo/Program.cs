@@ -27,12 +27,12 @@ namespace demo
                 Thread.Sleep(1);
             }
             DateTime date1 = DateTime.Now;
-            Console.WriteLine("排序前的时间是"+ date1.ToString("HH:mm:ss fff"));
+            Console.WriteLine("冒泡排序前的时间是"+ date1.ToString("HH:mm:ss fff"));
             bubbleSort(arrs);
             DateTime date2 = DateTime.Now;
             TimeSpan time = date2 - date1;
-            Console.WriteLine("排序后的时间是" + date2.ToString("HH:mm:ss fff"));
-            Console.WriteLine("{0}个数据所用的时间:{1}",len, time.TotalMilliseconds);
+            Console.WriteLine("冒泡排序后的时间是" + date2.ToString("HH:mm:ss fff"));
+            Console.WriteLine("冒泡排序：{0}个数据所用的时间:{1}", len, time.TotalMilliseconds);
         }
 
         public static void print(int[] arr)
