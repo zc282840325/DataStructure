@@ -10,8 +10,8 @@ namespace demo
     {
         static void Main(string[] args)
         {
-            int[] arr = {-9,78,0,23,-567,70,-1,900,4568 };
-            quickSort(arr,0,arr.Length-1);
+            int[] arr = {-9,78,0, 23 ,- 567,70,-1,900,4568 };
+            // quickSort(arr,0,arr.Length-1);
             print(arr);
             Console.ReadKey();
         }
@@ -23,10 +23,10 @@ namespace demo
             //prvot 中轴值
             int prvot = arr[(l + r) / 2];
             //while循环的目的是让比prvot值小的左，比它大的放右边
-            while (l<r)
+            while (l < r)
             {
                 //在prvot左边一直找，找到大于等于provt值，才推出
-                while (arr[l]<prvot)
+                while (arr[l] < prvot)
                 {
                     l += 1;
                 }
@@ -36,7 +36,7 @@ namespace demo
                     r -= 1;
                 }
                 //[如果条件成立，prvot的左右两的值，已经按照左边全部是]
-                if (l>=r)
+                if (l >= r)
                 {
                     break;
                 }
@@ -45,7 +45,7 @@ namespace demo
                 arr[l] = arr[r];
                 arr[r] = temp;
                 //如果交换完，arr[l]==pivot值相等，前移
-                if (arr[l]==prvot)
+                if (arr[l] == prvot)
                 {
                     r -= 1;
                 }
@@ -56,20 +56,20 @@ namespace demo
                 }
             }
             //如果l==r,必须l++,r--，否则会出现栈溢出
-            if (l==r)
+            if (l == r)
             {
-                l+=1;
-                r-=1;
+                l += 1;
+                r -= 1;
             }
             //向左递归
-            if (left<r)
+            if (left < r)
             {
-                quickSort(arr,left,r);
+                quickSort(arr, left, r);
             }
             //向左递归
-            if (right >l)
+            if (right > l)
             {
-                quickSort(arr, l, right);
+                quickSort(arr, l, arr.Length);
             }
         }
 
